@@ -1,5 +1,6 @@
 lines = File.read("numbers.csv").lines
-first_lines = lines[0] + lines[1]
+first_lines = lines[0]
+
 puts "first line is : #{first_lines}"
 
 first_lines = first_lines.chomp
@@ -15,4 +16,5 @@ numbers.each do |num|
 	sum += num
 end
 
-puts "sum of first two lines is #{sum}"
+puts "sum of numbers in the first line is #{sum}"
+
